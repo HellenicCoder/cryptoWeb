@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!-- Coding by CodingNepal || www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title> Currency converter App in javascript|| Yahya Nebgui</title>
+    <link rel="stylesheet" href="c.css" />
+    <script src="https://kit.fontawesome.com/6829867d24.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+        <header>Currency converter</header>
+        <form action="">
+            <div class="amount">
+                <p>Enter Amount</p>
+                <input type="text" value="1">
+            </div>
+            <div class="drop-list">
+                <div class="from">
+                    <p>from</p>
+                    <div class="select-box">
+                       <img src="https://flagsapi.com/US/flat/64.png" alt="flag">
+                       <select></select>
+                    </div>
+                </div>
+                <div class="icon"><i class="fas fa-exchange-alt"></i></div>
+                <div class="to">
+                    <p>to</p>
+                    <div class="select-box">
+                       <img src="https://flagsapi.com/MA/flat/64.png" alt="flag">
+                       <select></select>
+                    </div>
+                </div>
+            </div>
+           <div class="exchange-rate">Getting exchange rate..</div> 
+           <button>Get Exchange Rate</button>
+        </form>
+    </div>
+    <script src="country-list.js"></script>
+    <script src="c.js"></script>
+  </body>
+</html>
